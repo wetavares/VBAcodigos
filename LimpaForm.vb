@@ -1,4 +1,5 @@
 Public Sub LimpaForm(Formulario As UserForm)
+'Sub rotina para usar nos formularios vba do excel
 'Limpar todos controles do formulario
 Dim Control As Object
 'Percorre todo o formulario verificando buscando os controles

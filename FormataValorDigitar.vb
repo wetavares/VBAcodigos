@@ -1,4 +1,5 @@
 Public Sub formataMoeda(valor)
+'Esta sub sever para ser usada nos formularios do vba no excel
 'Formatar campo de valor com ponto e virgula ao digitar
     If IsNumeric(valor) Then
         If InStr(1, valor, "-") >= 1 Then valor = Replace(valor, "-", "") 'retira sinal negativo caso digitado
